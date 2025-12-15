@@ -77,7 +77,7 @@ deploy_backend() {
     
     # 部署 Workers
     log_info "部署到 Cloudflare Workers..."
-    npx wrangler deploy
+    npx wrangler deploy src/index.ts
     
     cd ..
     log_success "后端部署完成"

@@ -4,8 +4,8 @@
   "description": "Cloudflare Workers backend for blog",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["cloudflare", "workers", "blog", "api"],
